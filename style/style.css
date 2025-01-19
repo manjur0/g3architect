@@ -9,18 +9,77 @@ body {
   margin: 0;
   padding: 0;
 }
+
+/* Shared style */
 .container {
   max-width: 1444px;
   margin: 0 auto;
 }
+.display-flex {
+  display: flex;
+  align-items: center;
+}
+.text-gray {
+  color: #424242;
+}
+.text-light-gray {
+  color: #727272;
+}
+/* Nav Style css */
+.navbar {
+  justify-content: space-between;
+  padding: 32px;
+}
 .nav-hero {
   background: rgba(255, 144, 14, 0.1);
+}
+.nav-item {
+  list-style: none;
+  margin-left: 32px;
+}
+.nav-link {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
 }
 
 .brand {
   font-family: "Work Sans";
-  font-size: 45px;
-  font-style: normal;
+  font-size: 3rem;
   font-weight: 700;
   line-height: normal;
+}
+
+/* Banner section css */
+.banner {
+  padding: 3rem 0px;
+}
+.banner-content {
+  max-width: 850px;
+  margin: 0 auto;
+  text-align: center;
+}
+.banner-title {
+  font-weight: 700;
+  font-size: 4rem;
+}
+.banner-description {
+  color: #727272;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 12px 0;
+}
+.btn-primary {
+  border-radius: 8px;
+  background: #ff900e;
+  padding: 16px 24px;
+  margin: 16px 0;
+  color: white;
+  font-size: 1.5rem;
+  border: none;
+  cursor: pointer;
+}
+.banner-image {
+  width: 100%;
 }
