@@ -15,6 +15,9 @@ body {
   max-width: 1444px;
   margin: 0 auto;
 }
+section {
+  padding: 60px 0;
+}
 .display-flex {
   display: flex;
   align-items: center;
@@ -82,4 +85,70 @@ body {
 }
 .banner-image {
   width: 100%;
+}
+
+/* Teams section css */
+.teams {
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.team-img-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+.our-features {
+  width: 29.25rem;
+  padding: 0 4rem;
+}
+.feature-title {
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+}
+.quick {
+  color: #727272;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 500;
+}
+.feature {
+  color: #ff900e;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+}
+.feature-description {
+  padding: 2.5rem 0;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  color: #727272;
+}
+
+/* Responsive design in mobile */
+@media (max-width: 768px) {
+  /* nav style  */
+  .navbar {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav-links {
+    margin-top: 24px;
+  }
+
+  /* banner style */
+  .banner {
+    padding: 2rem;
+  }
+  .banner-title {
+    font-size: 2rem;
+  }
+  .banner-description {
+    font-size: 14px;
+  }
+  .banner-image {
+  }
 }
